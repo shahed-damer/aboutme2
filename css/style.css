@@ -1,1 +1,35 @@
-main{background-image: url("https://www.gamerevolution.com/assets/uploads/2020/09/Genshin-Impact-controller-support-1280x720.jpg");}
+body{background-image: url("https://www.gamerevolution.com/assets/uploads/2020/09/Genshin-Impact-controller-support-1280x720.jpg");}
+
+
+  
+  header nav {
+    float: left;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    float: left;
+    padding: 15px;
+
+}
+
+
+main h1 {
+  text-align: right;
+  color: red;
+}
+
+main p {
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  background: black;
+  color: white;
+  line-height: 4px
+}
+
