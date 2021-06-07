@@ -11,13 +11,13 @@ body{background-image: url("https://www.gamerevolution.com/assets/uploads/2020/0
   }
   
   header nav ul li {
-    float: left;
+    float: left; 
     padding: 15px;
 
 }
 
-main{padding :50px}
-main h1 {
+main{padding- :50px}
+main section h1 {
   text-align: center;
   color: red;
 }
@@ -28,7 +28,7 @@ main p {
 
 footer {
   text-align: center;
-  background: black;
+
   color: white;
   line-height: 4px
 }
