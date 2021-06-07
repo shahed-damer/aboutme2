@@ -16,7 +16,7 @@ body{background-image: url("https://www.gamerevolution.com/assets/uploads/2020/0
 
 }
 
-
+main{padding :50px}
 main h1 {
   text-align: center;
   color: red;
