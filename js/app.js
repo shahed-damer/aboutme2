@@ -93,6 +93,10 @@ function Question6(){
             break;
         }
         else if (num > s) {
+            alert('too high')
+        }
+        
+        else if (num < s) {
             alert('too low')
         }
     }
