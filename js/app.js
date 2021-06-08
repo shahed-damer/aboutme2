@@ -117,12 +117,13 @@ function Question6(){
     }
 }
 
-q1();
-q2();
-q3();
-q4();
-q5();
-q6();
-q7();
+Question1();
+Question2();
+Question3();
+Question4();
+Question5();
+Question6();
+Question7();
+
 alert('you\'r score is ' + score)
 
