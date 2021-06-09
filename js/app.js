@@ -3,80 +3,29 @@ let userName = prompt('Whats Your Name?');
 alert('Welcome '+userName);
 let score = 0;
 
-function Question1(){
+function userQuestion1(question,correctAns, unCorrectAns){
+    let userName;
+    do{
+        userNamet = prompet (question);
+    } while (userName !== 'yes' && userName ! 'y' && userName !== 'no' && userName !== 'n');
 
+    if(userName === 'yes' || userName === 'y') {
+        console.log(correctAns);
+        score++;
+    } else {
+        console.log(unCorrectAns);
+    }
 
-let videoGame = prompt('Do you Think I like Video Games?').toLowerCase();
-if (videoGame =='yes' || videoGame == 'y') {
-alert('thats Answer is yes '+userName);
-score++;
-} else {
-    alert('your Answer is no');
 }
+   userQuestion1('Do you Think I Like footBall?', 'yes' , 'no');
+   userQuestion1('Do you Think My favourite Color is Red?', 'yes' , 'no'); 
+   userQuestion1('Do you THink I like dancing', 'yes' , 'no');
+   userQuestion1('Do you Think I like Drink coffie?', 'yes' , 'no');
+   userQuestion1('Do you Think I like Video Games?', 'yes' , 'no');  
 
-}
-
-
-
-function Question2(){
-
-
-    let likeFoot =prompt('Do you Think I like FootBall?').toLowerCase();
-    if (likeFoot == 'yes' || likeFoot == 'y') {
-    alert('thats Answer is yes '+userName);
-    score++;
-    } else {
-        alert('your Answer is no');
-    }
-    
-    }
-
-
-    
-
-function Question3(){
-
-
-    let favColor = prompt('Do you Think My Favourite color is Red?').toLowerCase();
-    if (favColor == 'yes' || favColor == 'y') {
-    alert('thats Answer is yes '+userName);
-    score++;
-    } else {
-        alert('your Answer is no');
-    }
-    
-    }
-
-    
-
-function Question4(){
-
-
-    let likeDan = prompt('Do you Think I like Dancing?').toLowerCase();
-    if (likeDan == 'yes' || likeDan == 'y') {
-    alert('thats Answer is yes '+userName);
-    score++;
-    } else {
-        alert('your Answer is no');
-    }
-    
-    }
-
-    
-
-function Question5(){
-
-
-    let likeDri = prompt('Do you Think I like FootBall?').toLowerCase();
-    if (likeDri == 'yes' || likeDri == 'y') {
-    alert('thats Answer is yes '+userName);
-    score++;
-    } else {
-        alert('your Answer is no');
-    }
      alert('Welcome '+ userName + "Thank you Goregis of your Time");
 
-    }
+    
 
     
 
