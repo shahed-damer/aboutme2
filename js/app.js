@@ -51,15 +51,15 @@ function Question7()
     let numPlayers = [15, 11, 20, 12];
     
 
-    loop1:
+    
     for (let i = 1; i <= 6; i++) {
 
        let qe7 = prompt('How many Players in the Rugby Team ?');
-       loop2:
+       
         for (let m = 0; m < numPlayers.length; m++) {
             if (qe7 === numPlayers[m]) {
                 score++;
-                break loop1;
+                break;
             }
 
         }
