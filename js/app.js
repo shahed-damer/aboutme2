@@ -27,7 +27,7 @@ function Question6() {
 
 
     let s = 10
-    for (let i = 1; i < 4; i++) {
+    for (let i = 1; i <= 4; i++) {
         let num = parseInt(prompt('can you guess what is my Number'))
         if (num === s) {
             alert('your answer is correct Great');
@@ -46,19 +46,20 @@ function Question6() {
     alert('correct number is 10')
 }
 
-function Question7() {
-    let qe7 = prompt('How many Players in the Rugby Team ?');
+function Question7()
+ {
     let numPlayers = [15, 11, 20, 12];
-    let i = 1
+    
 
+    loop1:
+    for (let i = 1; i <= 6; i++) {
 
-    for (i = 1; i <= 6; i++) {
-
-        qe7 = prompt('How many Players in the Rugby Team ?');
+       let qe7 = prompt('How many Players in the Rugby Team ?');
+       loop2:
         for (let m = 0; m < numPlayers.length; m++) {
-            if (qe7 == numPlayers[m]) {
+            if (qe7 === numPlayers[m]) {
                 score++;
-                break;
+                break loop1;
             }
 
         }
