@@ -1,13 +1,17 @@
-body{background-image: url("https://www.solidbackgrounds.com/images/1920x1080/1920x1080-pale-pink-solid-color-background.jpg");}
+
+body{background-image: url("https://i.pinimg.com/originals/10/72/1b/10721b3a92d05e10428079e5f077966b.jpg")
+}
 
 
-  
+ 
   header nav {
+    background-image: url("https://img.wallpapersafari.com/tablet/1536/2048/24/93/XJEpBg.jpg");
     float: left;
   }
   
   header nav ul {
-    list-style: none;
+    list-style-type:none;
+    font-size: 20px; 
   }
   
   header nav ul li {
@@ -16,14 +20,21 @@ body{background-image: url("https://www.solidbackgrounds.com/images/1920x1080/19
 
 }
 
-main{padding:50px}
+main{padding: 100px}
 main section h1 {
   text-align: center;
   color:black;
+  font-family: segoe Script;
+  font-size: 100px;
 }
 
 main p {
   line-height: 1.5;
+  font-family: fantasy;
+}
+ol {font: 1em sans-serif;
+  
+
 }
 
 footer {
