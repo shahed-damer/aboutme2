@@ -52,14 +52,14 @@ function Question7()
     
 
     
-    for (let i = 1; i <= 6; i++) {
+outerloop:for (let i = 1; i <= 6; i++) {
 
        let qe7 = prompt('How many Players in the Rugby Team ?');
        
         for (let m = 0; m < numPlayers.length; m++) {
-            if (qe7 === numPlayers[m]) {
+            if (qe7 == numPlayers[m]) {
                 score++;
-                break;
+                break outerloop; 
             }
 
         }
